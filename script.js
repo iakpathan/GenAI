@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const userInput = document.getElementById("user-input");
     const chatBox = document.getElementById("chat-box");
 
-    const API_KEY = "AIzaSyCH5XkgoHEgjOHo7Hris_VBwVpQB0BihGw"; // Replace with your actual API key
+    const API_KEY = "your_api_key";
     const MODEL_NAME = "gemini-2.5-flash";
 
     chatForm.addEventListener("submit", async (e) => {
